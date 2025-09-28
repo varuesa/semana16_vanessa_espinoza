@@ -1,16 +1,30 @@
-# React + Vite
+# 📚 React + Tailwind - Posts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación construida con **React**, **Vite** y **Tailwind CSS**.  
+Su propósito es mostrar un ejemplo sencillo de navegación, consumo de API y scroll infinito.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características
 
-## React Compiler
+- **Navegación lateral (Sidebar)** fija en todas las páginas:
+  - Home 🏠
+  - Posts 📝
+- **Página Home**:
+  - Título y descripción.
+  - Imagen ilustrativa.
+- **Página Posts**:
+  - Consume la API: [JSONPlaceholder - Posts](https://jsonplaceholder.typicode.com/posts).
+  - Scroll infinito mostrando 10 posts por carga.
+  - Mensaje `"No hay más publicaciones"` cuando se acaban los datos.
+- **Cards de Post**:
+  - Avatar + datos de usuario por defecto.
+  - Título, descripción y fecha simulada.
+  - Botón ❤️ **Me gusta** (incrementa contador).
+  - Botón 📰 **Comentarios** .
+  - Sección de comentarios listados.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
